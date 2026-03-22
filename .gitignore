@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+*.venv
+
+# Ruff
+.ruff_cache
+*.ruff_cache
+
+# Dataset
+*data
+data/*
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+.ipynb_checkpoints/*
