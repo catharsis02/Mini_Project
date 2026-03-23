@@ -8,7 +8,7 @@ import pandas as pd
 from scipy.signal import butter, filtfilt, iirnotch
 
 DATA_PATH = Path("./data/SEED_EEG/SEED_RAW_EEG")
-SAVE_PATH = Path("./SEED_EEG/processed_data/")
+SAVE_PATH = Path("./data/SEED_EEG/processed_data/")
 SAVE_PATH.mkdir(parents=True, exist_ok=True)
 
 # Used from ./data/SEED_EEG/SEED_RAW_EEG/time.txt
@@ -68,7 +68,7 @@ def create_windows(
         15 samples per file.
 
     With windowing:
-        1 trial ~ 4 minutes -> 2 minues
+        1 trial ~ 4 minutes -> 2 minutes
         if we take window_size as 2 seconds
         overlap -> 0.5
 
@@ -211,7 +211,9 @@ for file in files:
                 # Avoid Spikes at 50Hz -> drift + high frequency noise.
                 window = notch_filter(window, sfreq, 50)
                 # CSP-safe normalization: remove per-channel DC offset only.
-                window = window - window.mean(axis=1, keepdims=True)
+                window = (window - window.mean(axis=1, keepdims=True)) / (
+    window.std(axis=1, keepdims=True) + 1e-6
+)
 
                 X_raw[write_idx] = window
                 X_feat[write_idx] = wavelet_de(window)
@@ -232,7 +234,7 @@ for file in files:
         X_raw = X_raw[:write_idx]
 
     # Keep CSP input compressed for downstream loading.
-    np.save(SAVE_PATH / f"{file.stem}_raw.npy", X_raw)
+    np.save(SAVE_PATH / f"{file.stem}_xraw.npy", X_raw)
     del X_raw
     raw_staging_path.unlink(missing_ok=True)
 
