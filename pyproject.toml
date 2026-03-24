@@ -15,10 +15,5 @@ dependencies = [
     "pyqt5>=5.15.11",
     "scikit-learn>=1.5.2",
     "pywavelets>=1.8.0",
-    "cython>=3.2.4",
-    "pymrmr>=0.1.11",
     "xgboost>=3.2.0",
 ]
-
-[tool.uv.extra-build-dependencies]
-pymrmr = ["Cython","numpy"]

@@ -1,0 +1,1663 @@
+=================================================================
+  SEED EEG — High-Accuracy Pipeline  (OOM-safe v6)
+  Features : DE(310) + DASM/RASM(270) + CSP(18) → FMI(150)
+  CV       : GroupKFold(n=5) by trial_id
+  Labels   : native {-1, 0, 1}  (no LabelEncoder)
+  SVM C=200  ·  LDA shrinkage=auto
+  Decimate : 1/4  ·  CSP subsample : 600/class
+  Peak RAM : ~1.5 GB per fold
+=================================================================
+
+─────────────────────────────────────────────────────────────────
+  Classifier : SVM
+─────────────────────────────────────────────────────────────────
+
+  Subject 1
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['1_1_13', '1_1_14', '1_1_4', '1_1_6', '1_2_10', '1_2_12', '1_2_14', '1_3_1', '1_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.1763
+    Fold 2/5  [test trials: ['1_1_1', '1_1_11', '1_1_3', '1_1_5', '1_1_7', '1_1_8', '1_1_9', '1_3_10', '1_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2431
+    Fold 3/5  [test trials: ['1_1_0', '1_1_2', '1_2_11', '1_2_2', '1_2_4', '1_2_8', '1_2_9', '1_3_0', '1_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2650
+    Fold 4/5  [test trials: ['1_2_0', '1_2_1', '1_2_3', '1_2_6', '1_3_12', '1_3_13', '1_3_2', '1_3_5', '1_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2945
+    Fold 5/5  [test trials: ['1_1_10', '1_1_12', '1_2_13', '1_2_5', '1_2_7', '1_3_11', '1_3_14', '1_3_3', '1_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2139
+    → Subject 1  mean: 0.2386  std: 0.0408
+
+  Subject 2
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['2_1_13', '2_1_14', '2_1_4', '2_1_6', '2_2_10', '2_2_12', '2_2_14', '2_3_1', '2_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2614
+    Fold 2/5  [test trials: ['2_1_1', '2_1_11', '2_1_3', '2_1_5', '2_1_7', '2_1_8', '2_1_9', '2_3_10', '2_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2219
+    Fold 3/5  [test trials: ['2_1_0', '2_1_2', '2_2_11', '2_2_2', '2_2_4', '2_2_8', '2_2_9', '2_3_0', '2_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2039
+    Fold 4/5  [test trials: ['2_2_0', '2_2_1', '2_2_3', '2_2_6', '2_3_12', '2_3_13', '2_3_2', '2_3_5', '2_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2940
+    Fold 5/5  [test trials: ['2_1_10', '2_1_12', '2_2_13', '2_2_5', '2_2_7', '2_3_11', '2_3_14', '2_3_3', '2_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2352
+    → Subject 2  mean: 0.2433  std: 0.0315
+
+  Subject 3
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['3_1_13', '3_1_14', '3_1_4', '3_1_6', '3_2_10', '3_2_12', '3_2_14', '3_3_1', '3_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2324
+    Fold 2/5  [test trials: ['3_1_1', '3_1_11', '3_1_3', '3_1_5', '3_1_7', '3_1_8', '3_1_9', '3_3_10', '3_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2658
+    Fold 3/5  [test trials: ['3_1_0', '3_1_2', '3_2_11', '3_2_2', '3_2_4', '3_2_8', '3_2_9', '3_3_0', '3_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2182
+    Fold 4/5  [test trials: ['3_2_0', '3_2_1', '3_2_3', '3_2_6', '3_3_12', '3_3_13', '3_3_2', '3_3_5', '3_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2999
+    Fold 5/5  [test trials: ['3_1_10', '3_1_12', '3_2_13', '3_2_5', '3_2_7', '3_3_11', '3_3_14', '3_3_3', '3_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 41 (2.2e-16 eps * 62 dim * 3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2288
+    → Subject 3  mean: 0.2490  std: 0.0300
+
+  Subject 4
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['4_1_13', '4_1_14', '4_1_4', '4_1_6', '4_2_10', '4_2_12', '4_2_14', '4_3_1', '4_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2344
+    Fold 2/5  [test trials: ['4_1_1', '4_1_11', '4_1_3', '4_1_5', '4_1_7', '4_1_8', '4_1_9', '4_3_10', '4_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2406
+    Fold 3/5  [test trials: ['4_1_0', '4_1_2', '4_2_11', '4_2_2', '4_2_4', '4_2_8', '4_2_9', '4_3_0', '4_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2020
+    Fold 4/5  [test trials: ['4_2_0', '4_2_1', '4_2_3', '4_2_6', '4_3_12', '4_3_13', '4_3_2', '4_3_5', '4_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3320
+    Fold 5/5  [test trials: ['4_1_10', '4_1_12', '4_2_13', '4_2_5', '4_2_7', '4_3_11', '4_3_14', '4_3_3', '4_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 32 (2.2e-16 eps * 62 dim * 2.3e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2322
+    → Subject 4  mean: 0.2482  std: 0.0440
+
+  Subject 5
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['5_1_13', '5_1_14', '5_1_4', '5_1_6', '5_2_10', '5_2_12', '5_2_14', '5_3_1', '5_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.1969
+    Fold 2/5  [test trials: ['5_1_1', '5_1_11', '5_1_3', '5_1_5', '5_1_7', '5_1_8', '5_1_9', '5_3_10', '5_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2308
+    Fold 3/5  [test trials: ['5_1_0', '5_1_2', '5_2_11', '5_2_2', '5_2_4', '5_2_8', '5_2_9', '5_3_0', '5_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2611
+    Fold 4/5  [test trials: ['5_2_0', '5_2_1', '5_2_3', '5_2_6', '5_3_12', '5_3_13', '5_3_2', '5_3_5', '5_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3325
+    Fold 5/5  [test trials: ['5_1_10', '5_1_12', '5_2_13', '5_2_5', '5_2_7', '5_3_11', '5_3_14', '5_3_3', '5_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2288
+    → Subject 5  mean: 0.2500  std: 0.0460
+
+  Subject 6
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['6_1_13', '6_1_14', '6_1_4', '6_1_6', '6_2_10', '6_2_12', '6_2_14', '6_3_1', '6_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2861
+    Fold 2/5  [test trials: ['6_1_1', '6_1_11', '6_1_3', '6_1_5', '6_1_7', '6_1_8', '6_1_9', '6_3_10', '6_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2446
+    Fold 3/5  [test trials: ['6_1_0', '6_1_2', '6_2_11', '6_2_2', '6_2_4', '6_2_8', '6_2_9', '6_3_0', '6_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2547
+    Fold 4/5  [test trials: ['6_2_0', '6_2_1', '6_2_3', '6_2_6', '6_3_12', '6_3_13', '6_3_2', '6_3_5', '6_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2821
+    Fold 5/5  [test trials: ['6_1_10', '6_1_12', '6_2_13', '6_2_5', '6_2_7', '6_3_11', '6_3_14', '6_3_3', '6_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.1976
+    → Subject 6  mean: 0.2530  std: 0.0319
+
+  Subject 7
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['7_1_13', '7_1_14', '7_1_4', '7_1_6', '7_2_10', '7_2_12', '7_2_14', '7_3_1', '7_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2944
+    Fold 2/5  [test trials: ['7_1_1', '7_1_11', '7_1_3', '7_1_5', '7_1_7', '7_1_8', '7_1_9', '7_3_10', '7_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3516
+    Fold 3/5  [test trials: ['7_1_0', '7_1_2', '7_2_11', '7_2_2', '7_2_4', '7_2_8', '7_2_9', '7_3_0', '7_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 35 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2916
+    Fold 4/5  [test trials: ['7_2_0', '7_2_1', '7_2_3', '7_2_6', '7_3_12', '7_3_13', '7_3_2', '7_3_5', '7_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3419
+    Fold 5/5  [test trials: ['7_1_10', '7_1_12', '7_2_13', '7_2_5', '7_2_7', '7_3_11', '7_3_14', '7_3_3', '7_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3068
+    → Subject 7  mean: 0.3173  std: 0.0248
+
+  Subject 8
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['8_1_13', '8_1_14', '8_1_4', '8_1_6', '8_2_10', '8_2_12', '8_2_14', '8_3_1', '8_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2408
+    Fold 2/5  [test trials: ['8_1_1', '8_1_11', '8_1_3', '8_1_5', '8_1_7', '8_1_8', '8_1_9', '8_3_10', '8_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2707
+    Fold 3/5  [test trials: ['8_1_0', '8_1_2', '8_2_11', '8_2_2', '8_2_4', '8_2_8', '8_2_9', '8_3_0', '8_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3246
+    Fold 4/5  [test trials: ['8_2_0', '8_2_1', '8_2_3', '8_2_6', '8_3_12', '8_3_13', '8_3_2', '8_3_5', '8_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2535
+    Fold 5/5  [test trials: ['8_1_10', '8_1_12', '8_2_13', '8_2_5', '8_2_7', '8_3_11', '8_3_14', '8_3_3', '8_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 33 (2.2e-16 eps * 62 dim * 2.4e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2589
+    → Subject 8  mean: 0.2697  std: 0.0291
+
+  Subject 9
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['9_1_13', '9_1_14', '9_1_4', '9_1_6', '9_2_10', '9_2_12', '9_2_14', '9_3_1', '9_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2772
+    Fold 2/5  [test trials: ['9_1_1', '9_1_11', '9_1_3', '9_1_5', '9_1_7', '9_1_8', '9_1_9', '9_3_10', '9_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3092
+    Fold 3/5  [test trials: ['9_1_0', '9_1_2', '9_2_11', '9_2_2', '9_2_4', '9_2_8', '9_2_9', '9_3_0', '9_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2764
+    Fold 4/5  [test trials: ['9_2_0', '9_2_1', '9_2_3', '9_2_6', '9_3_12', '9_3_13', '9_3_2', '9_3_5', '9_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3710
+    Fold 5/5  [test trials: ['9_1_10', '9_1_12', '9_2_13', '9_2_5', '9_2_7', '9_3_11', '9_3_14', '9_3_3', '9_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 34 (2.2e-16 eps * 62 dim * 2.5e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3330
+    → Subject 9  mean: 0.3134  std: 0.0358
+
+  Subject 10
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['10_1_13', '10_1_14', '10_1_4', '10_1_6', '10_2_10', '10_2_12', '10_2_14', '10_3_1', '10_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2649
+    Fold 2/5  [test trials: ['10_1_1', '10_1_11', '10_1_3', '10_1_5', '10_1_7', '10_1_8', '10_1_9', '10_3_10', '10_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.1903
+    Fold 3/5  [test trials: ['10_1_0', '10_1_2', '10_2_11', '10_2_2', '10_2_4', '10_2_8', '10_2_9', '10_3_0', '10_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2537
+    Fold 4/5  [test trials: ['10_2_0', '10_2_1', '10_2_3', '10_2_6', '10_3_12', '10_3_13', '10_3_2', '10_3_5', '10_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3068
+    Fold 5/5  [test trials: ['10_1_10', '10_1_12', '10_2_13', '10_2_5', '10_2_7', '10_3_11', '10_3_14', '10_3_3', '10_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2386
+    → Subject 10  mean: 0.2509  std: 0.0378
+
+  Subject 11
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['11_1_13', '11_1_14', '11_1_4', '11_1_6', '11_2_10', '11_2_12', '11_2_14', '11_3_1', '11_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3328
+    Fold 2/5  [test trials: ['11_1_1', '11_1_11', '11_1_3', '11_1_5', '11_1_7', '11_1_8', '11_1_9', '11_3_10', '11_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3264
+    Fold 3/5  [test trials: ['11_1_0', '11_1_2', '11_2_11', '11_2_2', '11_2_4', '11_2_8', '11_2_9', '11_3_0', '11_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2478
+    Fold 4/5  [test trials: ['11_2_0', '11_2_1', '11_2_3', '11_2_6', '11_3_12', '11_3_13', '11_3_2', '11_3_5', '11_3_7']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.3004
+    Fold 5/5  [test trials: ['11_1_10', '11_1_12', '11_2_13', '11_2_5', '11_2_7', '11_3_11', '11_3_14', '11_3_3', '11_3_9']] ... Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 38 (2.2e-16 eps * 62 dim * 2.8e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2416
+    → Subject 11  mean: 0.2898  std: 0.0385
+
+  Subject 12
+    Windows  : 10137  |  Channels : 62  |  DE feats : 310  |  Trials   : 45  |  Classes  : [-1, 0, 1]  |  Layout   : band_major
+    Fold 1/5  [test trials: ['12_1_13', '12_1_14', '12_1_4', '12_1_6', '12_2_10', '12_2_12', '12_2_14', '12_3_1', '12_3_8']] ... Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.2270
+    Fold 2/5  [test trials: ['12_1_1', '12_1_11', '12_1_3', '12_1_5', '12_1_7', '12_1_8', '12_1_9', '12_3_10', '12_3_4']] ... Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+Computing rank from data with rank=None
+    Using tolerance 37 (2.2e-16 eps * 62 dim * 2.7e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.
+Estimating class=1 covariance using EMPIRICAL
+Done.
+acc = 0.1780
+    Fold 3/5  [test trials: ['12_1_0', '12_1_2', '12_2_11', '12_2_2', '12_2_4', '12_2_8', '12_2_9', '12_3_0', '12_3_6']] ... Computing rank from data with rank=None
+    Using tolerance 36 (2.2e-16 eps * 62 dim * 2.6e+15  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=0 covariance using EMPIRICAL
+Done.

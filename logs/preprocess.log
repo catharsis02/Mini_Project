@@ -1,404 +1,495 @@
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-Skipping: ['time.txt']
+Skipping non-.cnt files: ['time.txt']
 Found 45 .cnt files
 
-Processing 10_1  (subject=10 session=1)
-  Expected windows : 3379
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized.py:152: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
-  with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/.venv/lib/python3.10/site-packages/pandas/io/parquet.py:191: UserWarning: The DataFrame has column names of mixed type. They will be converted to strings and not roundtrip correctly.
-  table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
-  ✓ 3379 windows → 10_1.parquet + 10_1_raw.npy
 
-Processing 10_2  (subject=10 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 10_2.parquet + 10_2_raw.npy
+Processing 10_1  (subject=10  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+  ✓  3379 windows  →  10_1.parquet  +  10_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 10_3  (subject=10 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 10_3.parquet + 10_3_raw.npy
+Processing 10_2  (subject=10  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  10_2.parquet  +  10_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 11_1  (subject=11 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 11_1.parquet + 11_1_raw.npy
+Processing 10_3  (subject=10  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  10_3.parquet  +  10_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 11_2  (subject=11 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 11_2.parquet + 11_2_raw.npy
+Processing 11_1  (subject=11  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  11_1.parquet  +  11_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 11_3  (subject=11 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 11_3.parquet + 11_3_raw.npy
+Processing 11_2  (subject=11  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  11_2.parquet  +  11_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 12_1  (subject=12 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 12_1.parquet + 12_1_raw.npy
+Processing 11_3  (subject=11  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  11_3.parquet  +  11_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 12_2  (subject=12 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 12_2.parquet + 12_2_raw.npy
+Processing 12_1  (subject=12  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  12_1.parquet  +  12_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 12_3  (subject=12 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 12_3.parquet + 12_3_raw.npy
+Processing 12_2  (subject=12  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  12_2.parquet  +  12_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 13_1  (subject=13 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 13_1.parquet + 13_1_raw.npy
+Processing 12_3  (subject=12  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  12_3.parquet  +  12_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 13_2  (subject=13 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 13_2.parquet + 13_2_raw.npy
+Processing 13_1  (subject=13  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  13_1.parquet  +  13_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 13_3  (subject=13 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 13_3.parquet + 13_3_raw.npy
+Processing 13_2  (subject=13  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  13_2.parquet  +  13_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 14_1  (subject=14 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 14_1.parquet + 14_1_raw.npy
+Processing 13_3  (subject=13  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  13_3.parquet  +  13_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 14_2  (subject=14 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 14_2.parquet + 14_2_raw.npy
+Processing 14_1  (subject=14  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  14_1.parquet  +  14_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 14_3  (subject=14 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 14_3.parquet + 14_3_raw.npy
+Processing 14_2  (subject=14  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  14_2.parquet  +  14_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 15_1  (subject=15 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 15_1.parquet + 15_1_raw.npy
+Processing 14_3  (subject=14  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  14_3.parquet  +  14_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 15_2  (subject=15 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 15_2.parquet + 15_2_raw.npy
+Processing 15_1  (subject=15  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  15_1.parquet  +  15_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 15_3  (subject=15 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 15_3.parquet + 15_3_raw.npy
+Processing 15_2  (subject=15  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  15_2.parquet  +  15_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 1_1  (subject=1 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 1_1.parquet + 1_1_raw.npy
+Processing 15_3  (subject=15  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  15_3.parquet  +  15_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 1_2  (subject=1 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 1_2.parquet + 1_2_raw.npy
+Processing 1_1  (subject=1  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  1_1.parquet  +  1_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 1_3  (subject=1 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 1_3.parquet + 1_3_raw.npy
+Processing 1_2  (subject=1  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  1_2.parquet  +  1_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 2_1  (subject=2 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 2_1.parquet + 2_1_raw.npy
+Processing 1_3  (subject=1  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  1_3.parquet  +  1_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 2_2  (subject=2 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 2_2.parquet + 2_2_raw.npy
+Processing 2_1  (subject=2  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  2_1.parquet  +  2_1_raw.npy
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 2_3  (subject=2 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 2_3.parquet + 2_3_raw.npy
+Processing 2_2  (subject=2  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  2_2.parquet  +  2_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 3_1  (subject=3 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 3_1.parquet + 3_1_raw.npy
+Processing 2_3  (subject=2  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  2_3.parquet  +  2_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 3_2  (subject=3 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 3_2.parquet + 3_2_raw.npy
+Processing 3_1  (subject=3  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  3_1.parquet  +  3_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 3_3  (subject=3 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 3_3.parquet + 3_3_raw.npy
+Processing 3_2  (subject=3  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  3_2.parquet  +  3_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 4_1  (subject=4 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 4_1.parquet + 4_1_raw.npy
+Processing 3_3  (subject=3  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  3_3.parquet  +  3_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 4_2  (subject=4 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 4_2.parquet + 4_2_raw.npy
+Processing 4_1  (subject=4  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  4_1.parquet  +  4_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 4_3  (subject=4 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 4_3.parquet + 4_3_raw.npy
+Processing 4_2  (subject=4  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  4_2.parquet  +  4_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 5_1  (subject=5 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 5_1.parquet + 5_1_raw.npy
+Processing 4_3  (subject=4  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  4_3.parquet  +  4_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 5_2  (subject=5 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 5_2.parquet + 5_2_raw.npy
+Processing 5_1  (subject=5  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  5_1.parquet  +  5_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 5_3  (subject=5 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 5_3.parquet + 5_3_raw.npy
+Processing 5_2  (subject=5  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  5_2.parquet  +  5_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 6_1  (subject=6 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 6_1.parquet + 6_1_raw.npy
+Processing 5_3  (subject=5  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  5_3.parquet  +  5_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 6_2  (subject=6 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 6_2.parquet + 6_2_raw.npy
+Processing 6_1  (subject=6  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  6_1.parquet  +  6_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 6_3  (subject=6 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 6_3.parquet + 6_3_raw.npy
+Processing 6_2  (subject=6  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  6_2.parquet  +  6_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 7_1  (subject=7 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 7_1.parquet + 7_1_raw.npy
+Processing 6_3  (subject=6  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  6_3.parquet  +  6_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 7_2  (subject=7 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 7_2.parquet + 7_2_raw.npy
+Processing 7_1  (subject=7  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  7_1.parquet  +  7_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 7_3  (subject=7 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 7_3.parquet + 7_3_raw.npy
+Processing 7_2  (subject=7  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  7_2.parquet  +  7_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 8_1  (subject=8 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 8_1.parquet + 8_1_raw.npy
+Processing 7_3  (subject=7  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  7_3.parquet  +  7_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 8_2  (subject=8 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 8_2.parquet + 8_2_raw.npy
+Processing 8_1  (subject=8  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  8_1.parquet  +  8_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 8_3  (subject=8 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 8_3.parquet + 8_3_raw.npy
+Processing 8_2  (subject=8  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  8_2.parquet  +  8_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 9_1  (subject=9 session=1)
-  Expected windows : 3379
-  ✓ 3379 windows → 9_1.parquet + 9_1_raw.npy
+Processing 8_3  (subject=8  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  8_3.parquet  +  8_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 9_2  (subject=9 session=2)
-  Expected windows : 3379
-  ✓ 3379 windows → 9_2.parquet + 9_2_raw.npy
+Processing 9_1  (subject=9  session=1)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  9_1.parquet  +  9_1_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:284: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+  with mne.io.read_raw_cnt(file, preload=False) as raw:
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Processing 9_3  (subject=9 session=3)
-  Expected windows : 3379
-  ✓ 3379 windows → 9_3.parquet + 9_3_raw.npy
+Processing 9_2  (subject=9  session=2)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  9_2.parquet  +  9_2_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
 
-Done.
+Processing 9_3  (subject=9  session=3)
+  Expected windows : 3379  |  Channels : 62  |  sfreq : 1000.0 Hz
+  ✓  3379 windows  →  9_3.parquet  +  9_3_raw.npy
+     Label dist    : {-1: 1115, 0: 1099, 1: 1165}          (expect 3 classes)
+     Unique trials : 15                       (expect 15)
+     DE cols       : delta_ch0 … gamma_ch61
+     DE col count  : 310    (expect 310)
+
+Done.  45/45 files succeeded.
