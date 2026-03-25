@@ -1,0 +1,11 @@
+method,fold,accuracy
+leaky_stratified,1,0.8
+leaky_stratified,2,0.875
+leaky_stratified,3,0.875
+leaky_stratified,4,0.9
+leaky_stratified,5,0.9
+honest_group,1,0.675
+honest_group,2,0.775
+honest_group,3,0.525
+honest_group,4,0.8
+honest_group,5,0.775

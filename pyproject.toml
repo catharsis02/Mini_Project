@@ -16,4 +16,6 @@ dependencies = [
     "scikit-learn>=1.5.2",
     "pywavelets>=1.8.0",
     "xgboost>=3.2.0",
+    "optuna>=4.8.0",
+    "lightgbm>=4.6.0",
 ]
