@@ -1,0 +1,2178 @@
+================================================================================
+OPTIMIZED EEG PIPELINE - TARGET: 80%+ ACCURACY
+Advanced feature engineering + optimized ensembles + honest CV
+================================================================================
+Found 45 sessions
+Subjects found: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Number of subjects: 15
+
+Processing Subject 1, Session 1
+    Optimized 5-fold CV for 80%+ accuracy
+    Fold 1: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.2 (2.2e-16 eps * 62 dim * 5.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.5 (2.2e-16 eps * 62 dim * 3.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4 (2.2e-16 eps * 62 dim * 2.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 527
+      Selected features: 150 / 527
+      optimized_ensemble: 0.9250
+      🎯 TARGET ACHIEVED: 92.5%!
+      optimized_svm: 0.9250
+      🎯 TARGET ACHIEVED: 92.5%!
+    Fold 2: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.3 (2.2e-16 eps * 62 dim * 5.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.1 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.5 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.6 (2.2e-16 eps * 62 dim * 3.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4 (2.2e-16 eps * 62 dim * 2.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.2 (2.2e-16 eps * 62 dim * 2.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 527
+      Selected features: 150 / 527
+      optimized_ensemble: 0.6000
+      optimized_svm: 0.5750
+    Fold 3: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.1 (2.2e-16 eps * 62 dim * 5.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.4 (2.2e-16 eps * 62 dim * 3.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.9 (2.2e-16 eps * 62 dim * 2.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 526
+      Selected features: 150 / 526
+      optimized_ensemble: 0.0500
+      optimized_svm: 0.0500
+    Fold 4: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.1 (2.2e-16 eps * 62 dim * 5.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.4 (2.2e-16 eps * 62 dim * 3.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4 (2.2e-16 eps * 62 dim * 2.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 525
+      Selected features: 150 / 525
+      optimized_ensemble: 0.7000
+      optimized_svm: 0.8250
+      🎯 TARGET ACHIEVED: 82.5%!
+    Fold 5: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7 (2.2e-16 eps * 62 dim * 5.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.5 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.7 (2.2e-16 eps * 62 dim * 3.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.2 (2.2e-16 eps * 62 dim * 3.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.5 (2.2e-16 eps * 62 dim * 2.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 526
+      Selected features: 150 / 526
+      optimized_ensemble: 0.4750
+      optimized_svm: 0.4500
+  optimized_ensemble: 0.5500 (max: 0.9250)
+  🎉 optimized_ensemble achieved 80%+: 92.5%
+  optimized_svm: 0.5650 (max: 0.9250)
+  🎉 optimized_svm achieved 80%+: 92.5%
+
+Processing Subject 1, Session 2
+    Optimized 5-fold CV for 80%+ accuracy
+    Fold 1: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 6.8 (2.2e-16 eps * 62 dim * 4.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.2 (2.2e-16 eps * 62 dim * 3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.3 (2.2e-16 eps * 62 dim * 1.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 530
+      Selected features: 150 / 530
+      optimized_ensemble: 0.8500
+      🎯 TARGET ACHIEVED: 85.0%!
+      optimized_svm: 0.7000
+    Fold 2: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 6.8 (2.2e-16 eps * 62 dim * 5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.7 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.2 (2.2e-16 eps * 62 dim * 3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.1 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.3 (2.2e-16 eps * 62 dim * 1.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 528
+      Selected features: 150 / 528
+      optimized_ensemble: 0.3000
+      optimized_svm: 0.3500
+    Fold 3: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.2 (2.2e-16 eps * 62 dim * 5.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.7 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.2 (2.2e-16 eps * 62 dim * 3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.2 (2.2e-16 eps * 62 dim * 1.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 528
+      Selected features: 150 / 528
+      optimized_ensemble: 0.0250
+      optimized_svm: 0.1250
+    Fold 4: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7 (2.2e-16 eps * 62 dim * 5.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.7 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.2 (2.2e-16 eps * 62 dim * 3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.1 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.3 (2.2e-16 eps * 62 dim * 1.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 529
+      Selected features: 150 / 529
+      optimized_ensemble: 0.7000
+      optimized_svm: 0.7500
+    Fold 5: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 6.8 (2.2e-16 eps * 62 dim * 5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.7 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.2 (2.2e-16 eps * 62 dim * 3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.3 (2.2e-16 eps * 62 dim * 1.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 529
+      Selected features: 150 / 529
+      optimized_ensemble: 0.6000
+      optimized_svm: 0.4750
+  optimized_ensemble: 0.4950 (max: 0.8500)
+  🎉 optimized_ensemble achieved 80%+: 85.0%
+  optimized_svm: 0.4800 (max: 0.7500)
+
+Processing Subject 1, Session 3
+    Optimized 5-fold CV for 80%+ accuracy
+    Fold 1: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.3 (2.2e-16 eps * 62 dim * 5.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.5 (2.2e-16 eps * 62 dim * 2.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.5 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 530
+      Selected features: 150 / 530
+      optimized_ensemble: 0.3750
+      optimized_svm: 0.4500
+    Fold 2: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 6.9 (2.2e-16 eps * 62 dim * 5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.7 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.2 (2.2e-16 eps * 62 dim * 1.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 528
+      Selected features: 150 / 528
+      optimized_ensemble: 0.4750
+      optimized_svm: 0.4250
+    Fold 3: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.3 (2.2e-16 eps * 62 dim * 5.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.1 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.5 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 527
+      Selected features: 150 / 527
+      optimized_ensemble: 0.0000
+      optimized_svm: 0.0500
+    Fold 4: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.2 (2.2e-16 eps * 62 dim * 5.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 527
+      Selected features: 150 / 527
+      optimized_ensemble: 0.2250
+      optimized_svm: 0.2500
+    Fold 5: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 7.3 (2.2e-16 eps * 62 dim * 5.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.5 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 528
+      Selected features: 150 / 528
+      optimized_ensemble: 0.3250
+      optimized_svm: 0.2000
+  optimized_ensemble: 0.2800 (max: 0.4750)
+  optimized_svm: 0.2750 (max: 0.4500)
+
+Processing Subject 2, Session 1
+    Optimized 5-fold CV for 80%+ accuracy
+    Fold 1: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 4.8 (2.2e-16 eps * 62 dim * 3.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.2 (2.2e-16 eps * 62 dim * 1.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 5.9 (2.2e-16 eps * 62 dim * 4.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.7 (2.2e-16 eps * 62 dim * 3.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 530
+      Selected features: 150 / 530
+      optimized_ensemble: 0.4750
+      optimized_svm: 0.4750
+    Fold 2: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 4.6 (2.2e-16 eps * 62 dim * 3.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.2 (2.2e-16 eps * 62 dim * 1.6e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 5.4 (2.2e-16 eps * 62 dim * 3.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.4 (2.2e-16 eps * 62 dim * 3.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 529
+      Selected features: 150 / 529
+      optimized_ensemble: 0.5000
+      optimized_svm: 0.5000
+    Fold 3: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 4.5 (2.2e-16 eps * 62 dim * 3.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2 (2.2e-16 eps * 62 dim * 1.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 7.3 (2.2e-16 eps * 62 dim * 5.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 6.1 (2.2e-16 eps * 62 dim * 4.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 527
+      Selected features: 150 / 527
+      optimized_ensemble: 0.0250
+      optimized_svm: 0.0250
+    Fold 4: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 4.6 (2.2e-16 eps * 62 dim * 3.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.1 (2.2e-16 eps * 62 dim * 1.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.5 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 7.3 (2.2e-16 eps * 62 dim * 5.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 6.1 (2.2e-16 eps * 62 dim * 4.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 526
+      Selected features: 150 / 526
+      optimized_ensemble: 0.0000
+      optimized_svm: 0.0000
+    Fold 5: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 4.6 (2.2e-16 eps * 62 dim * 3.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.1 (2.2e-16 eps * 62 dim * 1.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 7.3 (2.2e-16 eps * 62 dim * 5.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 6.1 (2.2e-16 eps * 62 dim * 4.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 528
+      Selected features: 150 / 528
+      optimized_ensemble: 0.5000
+      optimized_svm: 0.4500
+  optimized_ensemble: 0.3000 (max: 0.5000)
+  optimized_svm: 0.2900 (max: 0.5000)
+
+Processing Subject 2, Session 2
+    Optimized 5-fold CV for 80%+ accuracy
+    Fold 1: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.4 (2.2e-16 eps * 62 dim * 3.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.3 (2.2e-16 eps * 62 dim * 1.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.2 (2.2e-16 eps * 62 dim * 2.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4 (2.2e-16 eps * 62 dim * 2.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 533
+      Selected features: 150 / 533
+      optimized_ensemble: 0.3750
+      optimized_svm: 0.3500
+    Fold 2: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.3 (2.2e-16 eps * 62 dim * 3.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.2 (2.2e-16 eps * 62 dim * 2.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4 (2.2e-16 eps * 62 dim * 2.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 532
+      Selected features: 150 / 532
+      optimized_ensemble: 0.3250
+      optimized_svm: 0.3250
+    Fold 3: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.4 (2.2e-16 eps * 62 dim * 3.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.3 (2.2e-16 eps * 62 dim * 1.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.2 (2.2e-16 eps * 62 dim * 2.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.9 (2.2e-16 eps * 62 dim * 2.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 532
+      Selected features: 150 / 532
+      optimized_ensemble: 0.4500
+      optimized_svm: 0.4750
+    Fold 4: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.4 (2.2e-16 eps * 62 dim * 3.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.2 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.9 (2.2e-16 eps * 62 dim * 2.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 532
+      Selected features: 150 / 532
+      optimized_ensemble: 0.2250
+      optimized_svm: 0.3250
+    Fold 5: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.3 (2.2e-16 eps * 62 dim * 3.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.2 (2.2e-16 eps * 62 dim * 2.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.9 (2.2e-16 eps * 62 dim * 2.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 534
+      Selected features: 150 / 534
+      optimized_ensemble: 0.1250
+      optimized_svm: 0.1000
+  optimized_ensemble: 0.3000 (max: 0.4500)
+  optimized_svm: 0.3150 (max: 0.4750)
+
+Processing Subject 2, Session 3
+    Optimized 5-fold CV for 80%+ accuracy
+    Fold 1: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.9 (2.2e-16 eps * 62 dim * 4.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.5 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.5 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.3 (2.2e-16 eps * 62 dim * 3.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.5 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.7 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 531
+      Selected features: 150 / 531
+      optimized_ensemble: 0.6250
+      optimized_svm: 0.6000
+    Fold 2: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.7 (2.2e-16 eps * 62 dim * 4.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.5 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.2 (2.2e-16 eps * 62 dim * 3.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 530
+      Selected features: 150 / 530
+      optimized_ensemble: 0.3750
+      optimized_svm: 0.4750
+    Fold 3: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.9 (2.2e-16 eps * 62 dim * 4.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.5 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4 (2.2e-16 eps * 62 dim * 2.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 529
+      Selected features: 150 / 529
+      optimized_ensemble: 0.1000
+      optimized_svm: 0.2750
+    Fold 4: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.9 (2.2e-16 eps * 62 dim * 4.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.2 (2.2e-16 eps * 62 dim * 3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.6 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 530
+      Selected features: 150 / 530
+      optimized_ensemble: 0.5250
+      optimized_svm: 0.5500
+    Fold 5: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 5.9 (2.2e-16 eps * 62 dim * 4.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.5 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 4.3 (2.2e-16 eps * 62 dim * 3.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.7 (2.2e-16 eps * 62 dim * 1.9e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 530
+      Selected features: 150 / 530
+      optimized_ensemble: 0.4750
+      optimized_svm: 0.4000
+  optimized_ensemble: 0.4200 (max: 0.6250)
+  optimized_svm: 0.4600 (max: 0.6000)
+
+Processing Subject 3, Session 1
+    Optimized 5-fold CV for 80%+ accuracy
+    Fold 1: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 10 (2.2e-16 eps * 62 dim * 7.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.1 (2.2e-16 eps * 62 dim * 2.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 535
+      Selected features: 150 / 535
+      optimized_ensemble: 0.5500
+      optimized_svm: 0.6250
+    Fold 2: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 9.3 (2.2e-16 eps * 62 dim * 6.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.2 (2.2e-16 eps * 62 dim * 2.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.9 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.5 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 536
+      Selected features: 150 / 536
+      optimized_ensemble: 0.6500
+      optimized_svm: 0.6500
+    Fold 3: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 10 (2.2e-16 eps * 62 dim * 7.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 534
+      Selected features: 150 / 534
+      optimized_ensemble: 0.1250
+      optimized_svm: 0.2250
+    Fold 4: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 11 (2.2e-16 eps * 62 dim * 7.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.4 (2.2e-16 eps * 62 dim * 2.5e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2.1e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.1 (2.2e-16 eps * 62 dim * 2.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.3 (2.2e-16 eps * 62 dim * 1.7e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+      Optimized features: 535
+      Selected features: 150 / 535
+      optimized_ensemble: 0.0750
+      optimized_svm: 0.0750
+    Fold 5: 160 train, 40 test
+      Fitting optimized feature engineering (sfreq=500Hz)...
+        Fitting emotion-optimized CSP...
+Computing rank from data with rank=None
+    Using tolerance 10 (2.2e-16 eps * 62 dim * 7.3e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.8 (2.2e-16 eps * 62 dim * 2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3.3 (2.2e-16 eps * 62 dim * 2.4e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 3 (2.2e-16 eps * 62 dim * 2.2e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.
+Computing rank from data with rank=None
+    Using tolerance 2.4 (2.2e-16 eps * 62 dim * 1.8e+14  max singular value)
+    Estimated rank (data): 62
+    data: rank 62 computed from 62 data channels with 0 projectors
+Reducing data rank from 62 -> 62
+Estimating class=-1 covariance using OAS
+Done.
+Estimating class=1 covariance using OAS
+Done.

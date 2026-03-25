@@ -1,6 +1,6 @@
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
 ======================================================================
 SEED EEG Stockwell Transform Preprocessing
@@ -17,57 +17,57 @@ Processing 10_1  (subject=10, session=1)
   Channels: 62, sfreq: 1000.0 Hz
   Binary trials: 10/15 (excluding neutral)
   Expected windows: 200
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
 
   ✓ Saved: 10_1.parquet + 10_1_raw.npy
@@ -307,55 +307,55 @@ Processing 1_1  (subject=1, session=1)
   ✓ Saved: 1_1.parquet + 1_1_raw.npy
     Windows: 200
     Labels: {-1: 100, 1: 100} (binary: -1=neg, 1=pos)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
     Unique trials: 10
     Features: 360 (delta_ch0...rasm_gamma_pair9)
@@ -596,29 +596,29 @@ Processing 7_1  (subject=7, session=1)
 
 ============================================================
 Processing 7_2  (subject=7, session=2)
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning:   Could not parse meas date from the header. Setting to None.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
-/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:356: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
+/home/kanishka/Desktop/EEGProj/preprocess_stockwell_vectorized_v8.py:413: RuntimeWarning: Could not define the number of bytes automatically. Defaulting to 2.
   with mne.io.read_raw_cnt(file, preload=False) as raw:
 ============================================================
   Channels: 62, sfreq: 1000.0 Hz
